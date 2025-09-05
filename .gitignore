@@ -1,0 +1,12 @@
+# Eclipse metadata
+.metadata/
+
+# Build folders
+target/
+bin/
+out/
+
+# IDE files
+.vscode/
+.idea/
+
