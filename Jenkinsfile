@@ -29,7 +29,7 @@ pipeline {
         // ===== BACKEND BUILD =====
         stage('Build Backend') {
             steps {
-                dir('cartbackend\CartManagement') {
+                dir('cartbackend/CartManagement') {
                     bat 'mvn clean package'
                 }
             }
